@@ -1,0 +1,23 @@
+1. Write about any difficult problem that you solved. (According to us, difficult - is something which 90% of people would have only 10% probability in getting a similarly good solution). 
+
+Ans. I have not specifically worked on a very difficult problem. But, in the current project(Twitter Sentiment Analysis) that I am working on I was able to deal with a lot of challenging tasks such as:
+	1. Data cleaning and preprocessing : I used re to remove all the unnecessary strings, stop words, lemmatization
+	2. Text vectorization: I tried with tf-idf vectors and tf-idf weighted w2v
+	3. Fine tuning the hyperparameters with the use of GridSearchCV
+	4. Building supervised learning solutions, ranging from Logistic regression, Support Vector Machines (SVMs), Decision Trees, 		Ensemble Models (Random Forest, XGBoost) to Deep Neural Networks. This includes applying RNNs, LSTMs/GRUs, bidirectional RNNs and 	LSTMs etc. to my projects
+
+
+
+2. Formally, a vector space V' is a subspace of a vector space V if V' is a vector space and every element of V′ is also an element of V.
+Note that ordered pairs of real numbers (a,b) a,b∈R form a vector space V. Which of the following is a subspace of V?
+	The set of pairs (a, a + 1) for all real a
+	The set of pairs (a, b) for all real a ≥ b
+	The set of pairs (a, 2a) for all real a
+	The set of pairs (a, b) for all non-negative real a,b
+
+Ans. The set of pairs (a, b) for all real a ≥ b
+
+
+
+
+

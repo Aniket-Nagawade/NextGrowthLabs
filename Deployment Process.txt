@@ -1,0 +1,17 @@
+App link - https://chromeappreviews.herokuapp.com/
+I have created a streamlit app which I deployed on Heroku.
+Steps for deployment:
+1. Building a streamlit app(Chrome_App_Review.py). 
+2. I added the below files in the desired path which allows Heroku to install the necessary requirements and run the application 
+	requirements.txt : text file containing the libraries needed
+	Procfile : The Procfile is used to execute the setup.sh and then call streamlit run to run the application.
+	setup.sh : In the setup.sh file, we will create a streamlit folder with a credentials.toml and a config.toml file.
+3. Creating a git repository by using the command git init 
+4. Create a Heroku Account
+5. Installing the Heroku COmmand Line Interface
+6. Login to Heroku
+7. Deploy the Application using Heroku create
+8. Push the code to that instance using the below commands:
+	git add .
+	git commit -m "initial commit"
+	git push heroku master
